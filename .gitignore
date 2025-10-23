@@ -1,14 +1,28 @@
-.venv/
+# Python and virtual environments
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+
+# MLflow and model artifacts
 mlruns/
+artifacts/
 *.pth
 *.pt
 *.pkl
 *.h5
 *.dll
-*.jar
 *.exe
+*.jar
+
+# Temporary / logs / misc
 *.log
-*.zip
 *.csv
-artifacts/
+*.zip
+*.tar
+*.gz
+.DS_Store
+Thumbs.db
