@@ -1,28 +1,14 @@
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Virtual environments
 .venv/
-env/
-venv/
-
-# Model / large artifacts
+__pycache__/
+mlruns/
 *.pth
 *.pt
-*.h5
 *.pkl
+*.h5
 *.dll
-*.exe
 *.jar
-mlruns/
-artifacts/
-
-# Logs / misc
+*.exe
 *.log
-*.csv
 *.zip
-.DS_Store
-Thumbs.db
+*.csv
+artifacts/
