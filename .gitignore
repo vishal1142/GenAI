@@ -1,13 +1,15 @@
-# Python and virtual environments
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Virtual environments
 .venv/
 env/
 venv/
 
-# MLflow and model artifacts
+# MLflow and artifacts
 mlruns/
 artifacts/
 *.pth
@@ -18,7 +20,7 @@ artifacts/
 *.exe
 *.jar
 
-# Temporary / logs / misc
+# Temporary files
 *.log
 *.csv
 *.zip
