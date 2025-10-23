@@ -1,0 +1,2 @@
+Machine learning uses algorithms and statistical models to identify patterns in data. 
+Supervised learning relies on labeled datasets, while unsupervised learning finds hidden structures.

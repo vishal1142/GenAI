@@ -1,0 +1,9 @@
+Query: What is AI?
+
+Top chunks:
+[1] (score=1.00) → Artificial Intelligence (AI) is a field of computer science that focuses on creating systems  capable of performing tasks that normally require human intelligence. These include learning, reasoning, p...
+[2] (score=0.00) → Machine learning uses algorithms and statistical models to identify patterns in data. Supervised learning relies on labeled datasets, while unsupervised learning finds hidden structures....
+
+**Extractive Answer:**
+Artificial Intelligence (AI) is a field of computer science that focuses on creating systems 
+capable of performing tasks that normally require human intelligence. These include learning, reasoning, perception, and natural language understanding. Machine learning is a subset of AI that enables machines to learn from data without explicit programming.

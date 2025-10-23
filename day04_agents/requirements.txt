@@ -1,0 +1,16 @@
+pydantic>=2.7.0
+numpy>=1.26.0
+scikit-learn>=1.4.0
+tqdm>=4.66.0
+# Optional for real LLM calls (strategy 'openai'):
+openai>=1.35.0
+# Optional for local LLM calls (strategy 'local'):
+llama-cpp-python>=0.1.50
+# Optional for advanced agent tools:
+langchain>=0.0.375
+nltk>=3.9.0
+faiss-cpu>=1.8.1
+python-dotenv>=1.0.0
+openai>=1.35.0
+requests>=2.31.0
+tenacity>=8.2.3

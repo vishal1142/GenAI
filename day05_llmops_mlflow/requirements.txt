@@ -1,0 +1,10 @@
+torch>=2.2.0
+transformers>=4.42.0
+datasets>=2.20.0
+mlflow>=2.14.0
+pyyaml>=6.0
+tqdm>=4.66.0
+pydantic>=2.7.0
+numpy>=1.26.0
+scikit-learn>=1.4.0
+mlflow==2.14.0

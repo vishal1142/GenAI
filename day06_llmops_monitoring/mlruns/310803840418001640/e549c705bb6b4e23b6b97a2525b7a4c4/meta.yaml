@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/visha/FullGenAI/day06_llmops_monitoring/mlruns/310803840418001640/e549c705bb6b4e23b6b97a2525b7a4c4/artifacts
+end_time: 1761107843173
+entry_point_name: ''
+experiment_id: '310803840418001640'
+lifecycle_stage: active
+run_id: e549c705bb6b4e23b6b97a2525b7a4c4
+run_name: drift_check
+run_uuid: e549c705bb6b4e23b6b97a2525b7a4c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761107841031
+status: 3
+tags: []
+user_id: visha

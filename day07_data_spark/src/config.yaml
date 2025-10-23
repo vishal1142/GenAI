@@ -1,0 +1,30 @@
+spark:
+  app_name: "day07_spark_etl"
+  master: "local[*]"        # change for cluster
+  shuffle_partitions: 4
+
+io:
+  source_path: "data/raw/customers.csv"
+  ref_path: "data/reference/customers_profile.json"  # for drift comparison (created on first run)
+  bronze_path: "data/bronze/customers.parquet"
+  silver_path: "data/silver/customers_clean.parquet"
+  gold_path: "data/gold/customer_metrics.parquet"
+  sink: "parquet"            # parquet | delta
+
+dq:
+  policy: "strict"           # strict | relaxed
+  id_column: "customer_id"
+  required_columns: ["customer_id","age","income","country","signup_ts"]
+  numeric_ranges:
+    age: [18, 120]
+    income: [0, 1000000]
+  unique_keys: ["customer_id"]
+  fk_check:
+    # example if you later join to countries table
+    enabled: false
+    fk_col: "country"
+    dim_path: "data/dim/countries.parquet"
+    dim_key: "code"
+
+run:
+  write_mode: "overwrite"    # overwrite | append

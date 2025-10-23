@@ -1,0 +1,13 @@
+monitor:
+  window_size: 200
+  drift_strategy: "evidently"     # "evidently" | "custom"
+  alert_threshold: 0.3
+  report_dir: "artifacts/reports"
+
+data:
+  ref_file: "data/reference.csv"
+  new_file: "data/current.csv"
+
+tracking:
+  uri: "file:./mlruns"
+  experiment: "day06_drift_monitoring"

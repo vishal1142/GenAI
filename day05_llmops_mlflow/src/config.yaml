@@ -1,0 +1,21 @@
+experiment:
+  name: day05_llmops_demo
+  seed: 42
+
+data:
+  dataset: imdb
+  split: train[:2%]         # small subset
+  text_col: text
+  label_col: label
+
+model:
+  name: distilbert-base-uncased
+  strategy: local           # local | hf_hub
+  max_length: 128
+  lr: 5e-5
+  epochs: 1
+  batch_size: 8
+
+tracking:
+  uri: file:./mlruns        # mlflow tracking dir
+  autolog: true

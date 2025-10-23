@@ -1,0 +1,19 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}",
+    "${workspaceFolder}/day01_mnist_pytorch",
+    "${workspaceFolder}/day01_mnist_pytorch/src"
+  ],
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.useLibraryCodeForTypes": true,
+  "python.envFile": "${workspaceFolder}/.env",
+  "python.testing.cwd": "${workspaceFolder}/day01_mnist_pytorch",
+  "editor.formatOnSave": true,
+  "python.formatting.provider": "black",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+  "python.terminal.activateEnvironment": true,
+  "terminal.integrated.cwd": "${workspaceFolder}/day01_mnist_pytorch"
+}
