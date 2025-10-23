@@ -1,9 +1,9 @@
-# Virtual Environments
+# Virtual environments
 .venv/
 env/
 venv/
 
-# Compiled / Cache
+# Cache / compiled
 __pycache__/
 *.pyc
 *.pyo
@@ -17,20 +17,23 @@ artifacts/
 *.pkl
 *.h5
 *.joblib
+
+# Large binaries
 *.dll
 *.exe
 *.jar
 
-# Dataset / temp
+# Logs / temp / datasets
+*.log
+*.csv
 *.zip
 *.tar
 *.gz
-*.csv
 *.jsonl
-*.log
+*.npz
 
 # IDE / OS
-.DS_Store
-Thumbs.db
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db
