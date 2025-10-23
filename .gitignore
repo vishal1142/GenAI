@@ -1,39 +1,28 @@
-# Virtual environments
-.venv/
-env/
-venv/
-
-# Cache / compiled
+# Python and virtual environments
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+.venv/
+env/
+venv/
 
-# MLflow & Artifacts
+# MLflow and model artifacts
 mlruns/
 artifacts/
 *.pth
 *.pt
 *.pkl
 *.h5
-*.joblib
-
-# Large binaries
 *.dll
 *.exe
 *.jar
 
-# Logs / temp / datasets
+# Temporary / logs / misc
 *.log
 *.csv
 *.zip
 *.tar
 *.gz
-*.jsonl
-*.npz
-
-# IDE / OS
-.vscode/
-.idea/
 .DS_Store
 Thumbs.db
