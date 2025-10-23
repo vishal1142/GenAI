@@ -1,4 +1,4 @@
-# Python cache
+# Python and cache
 __pycache__/
 *.pyc
 *.pyo
@@ -9,7 +9,7 @@ __pycache__/
 env/
 venv/
 
-# MLflow and artifacts
+# MLflow / Artifacts
 mlruns/
 artifacts/
 *.pth
@@ -20,7 +20,7 @@ artifacts/
 *.exe
 *.jar
 
-# Temporary files
+# Logs and temp files
 *.log
 *.csv
 *.zip
