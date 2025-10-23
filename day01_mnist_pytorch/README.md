@@ -19,10 +19,3 @@ python -m venv .venv; .\.venv\Scripts\Activate.ps1
 
 pip install --upgrade pip
 pip install -r requirements.txt
-
-python -m pip install --upgrade pip
-pip install -r day01_mnist_pytorch/requirements.txt
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
-
-# 3️⃣ Reload VS Code window
-# Press Ctrl + Shift + P → Developer: Reload Window

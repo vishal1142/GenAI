@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Model / large artifacts
+*.pth
+*.pt
+*.h5
+*.pkl
+*.dll
+*.exe
+*.jar
+mlruns/
+artifacts/
+
+# Logs / misc
+*.log
+*.csv
+*.zip
+.DS_Store
+Thumbs.db
